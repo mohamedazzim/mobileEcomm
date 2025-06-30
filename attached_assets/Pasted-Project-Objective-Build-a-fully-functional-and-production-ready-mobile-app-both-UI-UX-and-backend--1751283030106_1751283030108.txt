@@ -1,0 +1,130 @@
+Project Objective:
+Build a fully functional and production-ready mobile app (both UI/UX and backend) from the following GitHub repository:
+GitHub Link: https://github.com/mohamedazzim/v0DroonApp
+
+🔧 Requirements:
+1. Platform
+Target: Cross-platform (Android & iOS)
+
+Framework: React Native (Expo or CLI preferred, choose based on stability and performance)
+
+Backend: Node.js + Express (or update if needed)
+
+Database: MongoDB (Atlas or Local MongoDB)
+
+🎨 UI/UX Design Expectations:
+General
+Apply a modern, premium, and clean UI/UX design.
+
+Make the layout responsive for all device sizes.
+
+Use reusable components, minimal colors, soft shadows, and smooth transitions.
+
+Follow Material Design or Apple Human Interface Guidelines based on platform.
+
+Specific Screens to Design (Based on repo flow):
+Splash Screen
+
+Login / Signup Page
+
+Email & password authentication
+
+Form validation
+
+User Dashboard
+
+Welcome message
+
+Summary cards (Current Orders, Pending Drones, etc.)
+
+Drone Booking Flow
+
+Booking form (location, date, purpose)
+
+Calendar & time slot picker
+
+Drone type selection
+
+My Bookings / History
+
+List previous bookings with status (Scheduled, Completed, Cancelled)
+
+Option to cancel a booking
+
+Drone Map View
+
+Live drone status tracking (use mocked or real map API if available)
+
+Profile & Settings
+
+View & Edit user details
+
+Logout
+
+⚙️ Backend & API Expectations:
+API Features
+User Authentication (JWT-based)
+
+Booking API (Create, Update, Cancel Booking)
+
+Drone Status API
+
+Booking History Fetch
+
+Admin API access for drone assignments (Optional)
+
+Backend Improvements
+Refactor existing Node.js code to ensure:
+
+Proper folder structure (controllers, routes, models, middlewares)
+
+Asynchronous handling with async/await
+
+Environment config using .env variables
+
+Secure APIs using token-based authentication.
+
+Validate inputs at backend using Joi or similar.
+
+Use proper status codes and error handling middleware.
+
+Connect to MongoDB Atlas for cloud database if local MongoDB isn't viable.
+
+🔐 Authentication & Security
+Use JWT tokens for login persistence.
+
+Store token securely (e.g., SecureStore or AsyncStorage).
+
+Ensure login guards and route protection for private data.
+
+📦 Additional Features (if possible):
+Push Notifications on booking status (using Expo or Firebase)
+
+Admin Panel (Optional web-based UI for managing bookings and drones)
+
+Use Socket.io or polling for real-time drone updates.
+
+🧪 Testing
+Write unit tests for backend APIs using Jest or Mocha.
+
+End-to-end UI flow testing using Detox or similar tools.
+
+Manual test cases/checklist for user booking flow.
+
+🚀 Final Deliverables
+Clean, documented, and production-ready code.
+
+Mobile app source (React Native project)
+
+Backend API server (Node.js + MongoDB)
+
+Environment setup instructions
+
+Sample .env.example for backend
+
+Final build-ready APK or Expo build link
+
+📝 Note:
+Before starting, scan and analyze the entire GitHub repository code from:
+👉 https://github.com/mohamedazzim/v0DroonApp
+Fix or rewrite broken components, missing modules, or outdated code. Preserve useful logic where possible and modernize the rest.
